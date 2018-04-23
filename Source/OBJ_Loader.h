@@ -825,7 +825,7 @@ namespace objl
 			while (true)
 			{
 				// For every vertex
-				for (int i = 0; i < int(tVerts.size()); i++)
+				for (unsigned int i = 0; i < tVerts.size(); i++)
 				{
 					// pPrev = the previous vertex in the list
 					Vertex pPrev;
